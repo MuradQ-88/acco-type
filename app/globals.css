@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+--background: #050816;
+--foreground: #ffffff;
+}
+
+@theme inline {
+--color-background: var(--background);
+--color-foreground: var(--foreground);
+--font-sans: var(--font-geist-sans);
+--font-mono: var(--font-geist-mono);
+}
+
+body {
+background: var(--background);
+color: var(--foreground);
+font-family: Arial, Helvetica, sans-serif;
+overflow-x: hidden;
+}
+
+@keyframes float1 {
+0%,100% { transform: translateY(0px); }
+50% { transform: translateY(-15px); }
+}
+
+@keyframes float2 {
+0%,100% { transform: translateY(0px); }
+50% { transform: translateY(-20px); }
+}
+
+@keyframes float3 {
+0%,100% { transform: translateY(0px); }
+50% { transform: translateY(-12px); }
+}
+
+@keyframes float4 {
+0%,100% { transform: translateY(0px); }
+50% { transform: translateY(-18px); }
+}
+
+@keyframes float5 {
+0%,100% { transform: translateY(0px); }
+50% { transform: translateY(-14px); }
+}
+
+@keyframes float6 {
+0%,100% { transform: translateY(0px); }
+50% { transform: translateY(-22px); }
+}
+
+@keyframes orbGlow {
+0% {
+transform: translateX(-10px);
+opacity: .4;
+}
+
+50% {
+transform: translateX(10px);
+opacity: .9;
+}
+
+100% {
+transform: translateX(-10px);
+opacity: .4;
+}
+}
