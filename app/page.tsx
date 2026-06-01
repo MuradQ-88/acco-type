@@ -55,33 +55,73 @@ return ( <main className="relative min-h-screen overflow-hidden bg-black text-wh
   <div className="absolute right-[-200px] bottom-[-150px] h-[700px] w-[700px] rounded-full bg-blue-500/10 blur-3xl" />
 
   {/* Logo */}
-  <div className="absolute left-10 top-8 z-30 flex items-center gap-4">
+  <div className="
+absolute
+left-4
+top-4
+z-30
+flex
+items-center
+gap-2
+md:left-10
+md:top-8
+md:gap-4
+">
 
     <Image
       src="/logo-new.png"
       alt="Acco-Type"
-      width={110}
-      height={110}
+      width={70}
+      height={70}
       className="object-contain"
     />
 
     <div>
-      <h2 className="text-4xl font-black tracking-[0.15em]">
+      <h2 className="
+text-xl
+font-black
+tracking-[0.15em]
+sm:text-2xl
+md:text-4xl
+">
         ACCO-TYPE
       </h2>
 
-      <p className="text-sm tracking-[0.4em] text-cyan-400">
+      <p className="
+text-[10px]
+tracking-[0.25em]
+text-cyan-400
+sm:text-xs
+md:text-sm
+">
         ENTERPRISE TECHNOLOGIES
       </p>
     </div>
 
   </div>
 
-  <div className="relative z-10 mx-auto flex min-h-screen max-w-[1800px] items-center justify-between px-20">
+  <div
+className="
+relative
+z-10
+mx-auto
+flex
+min-h-screen
+max-w-[1800px]
+flex-col
+justify-center
+px-6
+pt-32
+lg:flex-row
+lg:items-center
+lg:justify-between
+lg:px-20
+"
+>
 
    {/* Left Side Orbs */}
 
-<div className="relative hidden h-[850px] w-[850px] lg:block">
+<div className="relative h-[450px] w-full md:h-[650px] lg:h-[850px] lg:w-[850px]">
 
 {/* IT Support */}
 
@@ -92,9 +132,14 @@ return ( <main className="relative min-h-screen overflow-hidden bg-black text-wh
   <Image
     src="/icons/it-support.png"
     alt="IT Support"
-    width={280}
-    height={280}
+    width={180}
+    height={180}
     className="
+    w-[120px]
+sm:w-[160px]
+md:w-[200px]
+lg:w-[280px]
+h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -139,9 +184,14 @@ return ( <main className="relative min-h-screen overflow-hidden bg-black text-wh
   <Image
     src="/icons/hosting.png"
     alt="Hosting"
-    width={280}
-    height={280}
+    width={180}
+    height={180}
     className="
+    w-[120px]
+sm:w-[160px]
+md:w-[200px]
+lg:w-[280px]
+h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -186,9 +236,14 @@ return ( <main className="relative min-h-screen overflow-hidden bg-black text-wh
   <Image
     src="/icons/networking.png"
     alt="Networking"
-    width={280}
-    height={280}
+    width={180}
+    height={180}
     className="
+    w-[120px]
+sm:w-[160px]
+md:w-[200px]
+lg:w-[280px]
+h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -233,9 +288,14 @@ return ( <main className="relative min-h-screen overflow-hidden bg-black text-wh
   <Image
     src="/icons/web-development.png"
     alt="Web Development"
-    width={280}
-    height={280}
+    width={180}
+    height={180}
     className="
+    w-[120px]
+sm:w-[160px]
+md:w-[200px]
+lg:w-[280px]
+h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -280,9 +340,14 @@ return ( <main className="relative min-h-screen overflow-hidden bg-black text-wh
   <Image
     src="/icons/cloud-based-solutions.png"
     alt="Cloud Based Solutions"
-    width={280}
-    height={280}
+    width={180}
+    height={180}
     className="
+    w-[120px]
+sm:w-[160px]
+md:w-[200px]
+lg:w-[280px]
+h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -327,9 +392,14 @@ return ( <main className="relative min-h-screen overflow-hidden bg-black text-wh
   <Image
     src="/icons/hardware-solutions.png"
     alt="Hardware Solutions"
-    width={280}
-height={280}
+    width={180}
+    height={180}
     className="
+    w-[120px]
+sm:w-[160px]
+md:w-[200px]
+lg:w-[280px]
+h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -369,30 +439,77 @@ height={280}
 
 {/* Right Content */}
 
-<div className="ml-auto max-w-xl text-right">
+<div
+className="
+mx-auto
+mt-10
+max-w-xl
+text-center
+lg:ml-auto
+lg:mt-0
+lg:text-right
+"
+>
       <p className="mb-4 text-sm tracking-[0.5em] text-cyan-400">
         ACCO-TYPE TECHNOLOGIES
       </p>
 
       <h1 className="leading-[0.9] font-black">
 
-        <span className="block text-5xl xl:text-6xl">
+        <span className="block text-3xl sm:text-4xl md:text-5xl xl:text-6xl">
           FUTURE
         </span>
 
-        <span className="block bg-gradient-to-r from-cyan-400 via-sky-300 to-white bg-clip-text text-6xl text-transparent xl:text-7xl">
+        <span
+className="
+block
+bg-gradient-to-r
+from-cyan-400
+via-sky-300
+to-white
+bg-clip-text
+text-4xl
+text-transparent
+sm:text-5xl
+md:text-6xl
+xl:text-7xl
+"
+>
           TECHNOLOGY
         </span>
 
       </h1>
 
-      <p className="mt-6 ml-auto max-w-xl text-lg leading-8 text-gray-300">
+      <p
+className="
+mt-6
+mx-auto
+max-w-xl
+text-sm
+leading-7
+text-gray-300
+sm:text-base
+md:text-lg
+md:leading-8
+lg:ml-auto
+"
+>
         Enterprise-grade IT infrastructure, hosting, networking
         and digital solutions designed to power modern business
         operations across South Africa.
       </p>
 
-      <div className="mt-8 flex justify-end gap-4">
+      <div
+className="
+mt-8
+flex
+flex-col
+gap-4
+sm:flex-row
+sm:justify-center
+lg:justify-end
+"
+>
 
         <button className="rounded-2xl bg-cyan-400 px-8 py-4 font-bold text-black transition hover:bg-cyan-300">
           Request Consultation
