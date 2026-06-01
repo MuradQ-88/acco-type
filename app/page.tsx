@@ -562,54 +562,58 @@ items-center
 
   <a
     href="/contact"
+     className="
+    group
+    absolute
+    right-[220px]
+    top-[500px]
+  "
+  style={{ animation: "float7 9s ease-in-out infinite" }}
+>
+  <Image
+    src="/icons/contact-box.png"
+    alt="Contact Us"
+    width={180}
+    height={180}
     className="
-      group
-      relative
+      w-[120px]
+      sm:w-[150px]
+      md:w-[180px]
+      lg:w-[220px]
+      h-auto
       transition-all
       duration-300
-      hover:scale-110
+      group-hover:scale-110
+      drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
+    "
+  />
+
+  <div
+    className="
+      absolute
+      left-1/2
+      top-1/2
+      -translate-x-1/2
+      -translate-y-1/2
+      rounded-xl
+      bg-black/75
+      backdrop-blur-md
+      px-4
+      py-2
+      text-sm
+      font-semibold
+      text-white
+      opacity-0
+      scale-90
+      transition-all
+      duration-300
+      group-hover:opacity-100
+      group-hover:scale-100
+      pointer-events-none
     "
   >
-    <Image
-      src="/icons/contact-box.png"
-      alt="Contact Us"
-      width={140}
-      height={140}
-      className="
-        w-[90px]
-        sm:w-[110px]
-        md:w-[130px]
-        lg:w-[150px]
-        h-auto
-        drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
-      "
-    />
-
-    <div
-      className="
-        hidden lg:block
-        absolute
-        left-1/2
-        top-full
-        mt-2
-        -translate-x-1/2
-        rounded-xl
-        bg-black/80
-        px-4
-        py-2
-        text-sm
-        text-white
-        opacity-0
-        scale-90
-        transition-all
-        duration-300
-        group-hover:opacity-100
-        group-hover:scale-100
-        whitespace-nowrap
-      "
-    >
-      Contact Us
-    </div>
+    Contact Us
+  </div>
   </a>
 
   <button className="rounded-2xl border border-white/30 px-8 py-4 font-bold transition hover:bg-white/10">
