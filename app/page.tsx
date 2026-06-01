@@ -143,11 +143,11 @@ lg:px-20
     width={180}
     height={180}
     className="
-    w-[120px]
-sm:w-[160px]
-md:w-[200px]
-lg:w-[280px]
-h-auto
+      w-[120px]
+      sm:w-[160px]
+      md:w-[200px]
+      lg:w-[280px]
+      h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -159,24 +159,34 @@ h-auto
     className="
       absolute
       left-1/2
-      top-1/2
+      top-full
+      mt-2
       -translate-x-1/2
-      -translate-y-1/2
+
       rounded-xl
       bg-black/75
       backdrop-blur-md
-      px-4
+
+      px-3
       py-2
-      text-sm
+
+      text-xs
+      sm:text-sm
+
       font-semibold
       text-white
-      opacity-0
-      scale-90
+
+      opacity-100
+      scale-100
+
+      md:opacity-0
+      md:scale-90
+
       transition-all
       duration-300
-      group-hover:opacity-100
-      group-hover:scale-100
-      pointer-events-none
+
+      md:group-hover:opacity-100
+      md:group-hover:scale-100
     "
   >
     IT Support
@@ -470,12 +480,17 @@ h-auto
       text-sm
       font-semibold
       text-white
-      opacity-0
-      scale-90
-      transition-all
-      duration-300
-      group-hover:opacity-100
-      group-hover:scale-100
+      opacity-100
+scale-100
+
+md:opacity-0
+md:scale-90
+
+transition-all
+duration-300
+
+md:group-hover:opacity-100
+md:group-hover:scale-100
       pointer-events-none
     "
   >
