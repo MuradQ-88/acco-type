@@ -159,34 +159,24 @@ lg:px-20
     className="
       absolute
       left-1/2
-      top-full
-      mt-2
+      top-1/2
       -translate-x-1/2
-
+      -translate-y-1/2
       rounded-xl
       bg-black/75
       backdrop-blur-md
-
-      px-3
+      px-4
       py-2
-
-      text-xs
-      sm:text-sm
-
+      text-sm
       font-semibold
       text-white
-
-      opacity-100
-      scale-100
-
-      md:opacity-0
-      md:scale-90
-
+      opacity-0
+      scale-90
       transition-all
       duration-300
-
-      md:group-hover:opacity-100
-      md:group-hover:scale-100
+      group-hover:opacity-100
+      group-hover:scale-100
+      pointer-events-none
     "
   >
     IT Support
@@ -213,11 +203,11 @@ lg:px-20
     width={180}
     height={180}
     className="
-    w-[120px]
-sm:w-[160px]
-md:w-[200px]
-lg:w-[280px]
-h-auto
+      w-[120px]
+      sm:w-[160px]
+      md:w-[200px]
+      lg:w-[280px]
+      h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -257,14 +247,14 @@ h-auto
 
 <div
   className="
-group
-absolute
-left-[5%]
-top-[40%]
+    group
+    absolute
+    left-[5%]
+    top-[40%]
 
-md:left-[40px]
-md:top-[340px]
-"
+    md:left-[40px]
+    md:top-[340px]
+  "
   style={{ animation: "float3 9s ease-in-out infinite" }}
 >
   <Image
@@ -273,11 +263,11 @@ md:top-[340px]
     width={180}
     height={180}
     className="
-    w-[120px]
-sm:w-[160px]
-md:w-[200px]
-lg:w-[280px]
-h-auto
+      w-[120px]
+      sm:w-[160px]
+      md:w-[200px]
+      lg:w-[280px]
+      h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -317,14 +307,14 @@ h-auto
 
 <div
   className="
-group
-absolute
-left-[60%]
-top-[40%]
+    group
+    absolute
+    left-[60%]
+    top-[40%]
 
-md:left-[500px]
-md:top-[340px]
-"
+    md:left-[500px]
+    md:top-[340px]
+  "
   style={{ animation: "float4 11s ease-in-out infinite" }}
 >
   <Image
@@ -333,11 +323,11 @@ md:top-[340px]
     width={180}
     height={180}
     className="
-    w-[120px]
-sm:w-[160px]
-md:w-[200px]
-lg:w-[280px]
-h-auto
+      w-[120px]
+      sm:w-[160px]
+      md:w-[200px]
+      lg:w-[280px]
+      h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -377,14 +367,14 @@ h-auto
 
 <div
   className="
-group
-absolute
-left-[15%]
-top-[70%]
+    group
+    absolute
+    left-[15%]
+    top-[70%]
 
-md:left-[130px]
-md:top-[620px]
-"
+    md:left-[130px]
+    md:top-[620px]
+  "
   style={{ animation: "float5 12s ease-in-out infinite" }}
 >
   <Image
@@ -393,11 +383,11 @@ md:top-[620px]
     width={180}
     height={180}
     className="
-    w-[120px]
-sm:w-[160px]
-md:w-[200px]
-lg:w-[280px]
-h-auto
+      w-[120px]
+      sm:w-[160px]
+      md:w-[200px]
+      lg:w-[280px]
+      h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -437,14 +427,14 @@ h-auto
 
 <div
   className="
-group
-absolute
-left-[60%]
-top-[70%]
+    group
+    absolute
+    left-[60%]
+    top-[70%]
 
-md:left-[520px]
-md:top-[620px]
-"
+    md:left-[520px]
+    md:top-[620px]
+  "
   style={{ animation: "float6 10s ease-in-out infinite" }}
 >
   <Image
@@ -453,11 +443,11 @@ md:top-[620px]
     width={180}
     height={180}
     className="
-    w-[120px]
-sm:w-[160px]
-md:w-[200px]
-lg:w-[280px]
-h-auto
+      w-[120px]
+      sm:w-[160px]
+      md:w-[200px]
+      lg:w-[280px]
+      h-auto
       transition-all
       duration-300
       group-hover:scale-110
@@ -480,17 +470,12 @@ h-auto
       text-sm
       font-semibold
       text-white
-      opacity-100
-scale-100
-
-md:opacity-0
-md:scale-90
-
-transition-all
-duration-300
-
-md:group-hover:opacity-100
-md:group-hover:scale-100
+      opacity-0
+      scale-90
+      transition-all
+      duration-300
+      group-hover:opacity-100
+      group-hover:scale-100
       pointer-events-none
     "
   >
