@@ -481,6 +481,39 @@ lg:px-20
   >
     Hardware Solutions
   </div>
+  {/* Contact Us Mobile */}
+
+<a
+  href="/contact"
+  className="
+    block
+    lg:hidden
+
+    group
+    absolute
+
+    left-[60%]
+    top-[70%]
+  "
+  style={{ animation: "float7 9s ease-in-out infinite" }}
+>
+  <Image
+    src="/icons/contact-box.png"
+    alt="Contact Us"
+    width={180}
+    height={180}
+    className="
+      w-[120px]
+      sm:w-[140px]
+      h-auto
+
+      transition-all
+      duration-300
+
+      drop-shadow-[0_0_35px_rgba(168,85,247,0.8)]
+    "
+  />
+</a>
 </div>
 
 </div>
@@ -560,31 +593,39 @@ items-center
 "
 >
 
-  <a
-    href="/contact"
-     className="
+{/* Contact Us Desktop */}
+
+<a
+  href="/contact"
+  className="
+    hidden
+    lg:block
+
     group
     absolute
-    right-[220px]
-    top-[500px]
+
+    right-[420px]
+    top-[690px]
+
+    z-20
   "
   style={{ animation: "float7 9s ease-in-out infinite" }}
 >
   <Image
     src="/icons/contact-box.png"
     alt="Contact Us"
-    width={180}
-    height={180}
+    width={190}
+    height={190}
     className="
-      w-[120px]
-      sm:w-[150px]
-      md:w-[180px]
-      lg:w-[220px]
+      w-[190px]
       h-auto
+
       transition-all
       duration-300
+
       group-hover:scale-110
-      drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
+
+      drop-shadow-[0_0_35px_rgba(168,85,247,0.8)]
     "
   />
 
@@ -595,27 +636,34 @@ items-center
       top-1/2
       -translate-x-1/2
       -translate-y-1/2
+
       rounded-xl
       bg-black/75
       backdrop-blur-md
+
       px-4
       py-2
+
       text-sm
       font-semibold
       text-white
+
       opacity-0
       scale-90
+
       transition-all
       duration-300
+
       group-hover:opacity-100
       group-hover:scale-100
+
       pointer-events-none
+      whitespace-nowrap
     "
   >
     Contact Us
   </div>
-  </a>
-
+</a>
   <button className="rounded-2xl border border-white/30 px-8 py-4 font-bold transition hover:bg-white/10">
     Explore Solutions
   </button>
