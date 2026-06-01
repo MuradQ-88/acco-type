@@ -186,7 +186,15 @@ h-auto
 {/* Hosting */}
 
 <div
-  className="group absolute left-[500px] top-[90px]"
+  className="
+    group
+    absolute
+    left-[60%]
+    top-[10%]
+
+    md:left-[500px]
+    md:top-[90px]
+  "
   style={{ animation: "float2 10s ease-in-out infinite" }}
 >
   <Image
@@ -238,7 +246,15 @@ h-auto
 {/* Networking */}
 
 <div
-  className="group absolute left-[40px] top-[340px]"
+  className="
+group
+absolute
+left-[5%]
+top-[40%]
+
+md:left-[40px]
+md:top-[340px]
+"
   style={{ animation: "float3 9s ease-in-out infinite" }}
 >
   <Image
@@ -290,7 +306,15 @@ h-auto
 {/* Web Development */}
 
 <div
-  className="group absolute left-[500px] top-[340px]"
+  className="
+group
+absolute
+left-[60%]
+top-[40%]
+
+md:left-[500px]
+md:top-[340px]
+"
   style={{ animation: "float4 11s ease-in-out infinite" }}
 >
   <Image
@@ -342,7 +366,15 @@ h-auto
 {/* Cloud Based Solutions */}
 
 <div
-  className="group absolute left-[130px] top-[620px]"
+  className="
+group
+absolute
+left-[15%]
+top-[70%]
+
+md:left-[130px]
+md:top-[620px]
+"
   style={{ animation: "float5 12s ease-in-out infinite" }}
 >
   <Image
@@ -394,7 +426,15 @@ h-auto
 {/* Hardware Solutions */}
 
 <div
-  className="group absolute left-[520px] top-[620px]"
+  className="
+group
+absolute
+left-[60%]
+top-[70%]
+
+md:left-[520px]
+md:top-[620px]
+"
   style={{ animation: "float6 10s ease-in-out infinite" }}
 >
   <Image
