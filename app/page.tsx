@@ -547,7 +547,7 @@ lg:ml-auto
         operations across South Africa.
       </p>
 
-      <div
+     <div
 className="
 mt-8
 flex
@@ -556,18 +556,67 @@ gap-4
 sm:flex-row
 sm:justify-center
 lg:justify-end
+items-center
 "
 >
 
-        <button className="rounded-2xl bg-cyan-400 px-8 py-4 font-bold text-black transition hover:bg-cyan-300">
-          Request Consultation
-        </button>
+  <a
+    href="/contact"
+    className="
+      group
+      relative
+      transition-all
+      duration-300
+      hover:scale-110
+    "
+  >
+    <Image
+      src="/icons/contact-box.png"
+      alt="Contact Us"
+      width={140}
+      height={140}
+      className="
+        w-[90px]
+        sm:w-[110px]
+        md:w-[130px]
+        lg:w-[150px]
+        h-auto
+        drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
+      "
+    />
 
-        <button className="rounded-2xl border border-white/30 px-8 py-4 font-bold transition hover:bg-white/10">
-          Explore Solutions
-        </button>
+    <div
+      className="
+        hidden lg:block
+        absolute
+        left-1/2
+        top-full
+        mt-2
+        -translate-x-1/2
+        rounded-xl
+        bg-black/80
+        px-4
+        py-2
+        text-sm
+        text-white
+        opacity-0
+        scale-90
+        transition-all
+        duration-300
+        group-hover:opacity-100
+        group-hover:scale-100
+        whitespace-nowrap
+      "
+    >
+      Contact Us
+    </div>
+  </a>
 
-           </div>
+  <button className="rounded-2xl border border-white/30 px-8 py-4 font-bold transition hover:bg-white/10">
+    Explore Solutions
+  </button>
+
+</div>
 
     </div>
 
