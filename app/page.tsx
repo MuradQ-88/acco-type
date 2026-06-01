@@ -126,7 +126,15 @@ lg:px-20
 {/* IT Support */}
 
 <div
-  className="group absolute left-[120px] top-[120px]"
+  className="
+    group
+    absolute
+    left-[10%]
+    top-[15%]
+
+    md:left-[120px]
+    md:top-[120px]
+  "
   style={{ animation: "float1 8s ease-in-out infinite" }}
 >
   <Image
