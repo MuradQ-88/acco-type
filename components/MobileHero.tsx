@@ -5,7 +5,7 @@ export default function MobileHero() {
     <div className="block lg:hidden w-full mt-10">
 
       {/* Row 1 */}
-      <div className="flex justify-around items-center mb-8">
+      <div className="flex justify-around items-center mb-3">
 
         <Image
           src="/icons/it-support.png"
@@ -57,7 +57,7 @@ export default function MobileHero() {
       </div>
 
       {/* Contact */}
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-2">
 
         <Image
           src="/icons/contact-box.png"

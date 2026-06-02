@@ -134,6 +134,8 @@ lg:px-20
   mx-auto
   max-w-xl
   text-center
+  mt-10
+  lg:mt-0
   lg:ml-auto
   lg:text-right
   "
