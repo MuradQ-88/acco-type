@@ -11,193 +11,330 @@ export default function DesktopHero() {
           className="group absolute left-[120px] top-[120px]"
           style={{ animation: "float1 8s ease-in-out infinite" }}
         >
-          <Image
-  src="/icons/it-support.png"
-  alt="IT Support"
-  width={280}
-  height={280}
-  className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]"
-/>
+           <Image
+    src="/icons/it-support.png"
+    alt="IT Support"
+    width={280}
+    height={280}
+    className="
+      transition-all
+      duration-300
+      group-hover:scale-110
+      drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
+    "
+  />
 
-<div
-  className="
-    absolute
-    left-1/2
-    top-[260px]
-    -translate-x-1/2
-    opacity-0
-    group-hover:opacity-100
-    transition-all
-    duration-300
-    text-cyan-300
-    font-bold
-    text-xl
-    whitespace-nowrap
-  "
->
-  IT Support
+  <div
+    className="
+      absolute
+      inset-0
+      flex
+      items-center
+      justify-center
+      opacity-0
+      group-hover:opacity-100
+      transition-all
+      duration-300
+      rounded-3xl
+
+      bg-white/10
+      backdrop-blur-md
+
+      border
+      border-cyan-400/30
+
+      shadow-[0_0_35px_rgba(34,211,238,0.45)]
+    "
+  >
+    <span
+      className="
+        text-white
+        font-bold
+        text-2xl
+        tracking-wide
+        drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]
+      "
+    >
+      IT Support
+    </span>
+  </div>
+
 </div>
-        </div>
 
         {/* Hosting */}
         <div
           className="group absolute left-[500px] top-[90px]"
           style={{ animation: "float2 10s ease-in-out infinite" }}
         >
-          <Image
-            src="/icons/hosting.png"
-            alt="Hosting"
-            width={280}
-            height={280}
-            className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(168,85,247,0.8)]"
-          />
-          <div
-            className="
-              absolute
-              left-1/2
-              top-[260px]
-              -translate-x-1/2
-              opacity-0
-              group-hover:opacity-100
-              transition-all
-              duration-300
-              text-cyan-300
-              font-bold
-              text-xl
-              whitespace-nowrap
-            "
-          >
-            Hosting
-          </div>
-        </div>
+           <Image
+    src="/icons/Hosting.png"
+    alt="Hosting"
+    width={280}
+    height={280}
+    className="
+      transition-all
+      duration-300
+      group-hover:scale-110
+      drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
+    "
+  />
+
+  <div
+    className="
+      absolute
+      inset-0
+      flex
+      items-center
+      justify-center
+      opacity-0
+      group-hover:opacity-100
+      transition-all
+      duration-300
+      rounded-3xl
+
+      bg-white/10
+      backdrop-blur-md
+
+      border
+      border-cyan-400/30
+
+      shadow-[0_0_35px_rgba(34,211,238,0.45)]
+    "
+  >
+    <span
+      className="
+        text-white
+        font-bold
+        text-2xl
+        tracking-wide
+        drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]
+      "
+    >
+      Hosting
+    </span>
+  </div>
+
+</div>
 
         {/* Networking */}
         <div
           className="group absolute left-[40px] top-[340px]"
           style={{ animation: "float3 9s ease-in-out infinite" }}
         >
-          <Image
-            src="/icons/networking.png"
-            alt="Networking"
-            width={280}
-            height={280}
-            className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]"
-          />
-          <div
-  className="
-    absolute
-    left-1/2
-    top-[260px]
-    -translate-x-1/2
-    opacity-0
-    group-hover:opacity-100
-    transition-all
-    duration-300
-    text-cyan-300
-    font-bold
-    text-xl
-    whitespace-nowrap
-  "
->
-  Networking
+           <Image
+    src="/icons/Networking.png"
+    alt="Networking"
+    width={280}
+    height={280}
+    className="
+      transition-all
+      duration-300
+      group-hover:scale-110
+      drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
+    "
+  />
+
+  <div
+    className="
+      absolute
+      inset-0
+      flex
+      items-center
+      justify-center
+      opacity-0
+      group-hover:opacity-100
+      transition-all
+      duration-300
+      rounded-3xl
+
+      bg-white/10
+      backdrop-blur-md
+
+      border
+      border-cyan-400/30
+
+      shadow-[0_0_35px_rgba(34,211,238,0.45)]
+    "
+  >
+    <span
+      className="
+        text-white
+        font-bold
+        text-2xl
+        tracking-wide
+        drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]
+      "
+    >
+      Networking
+    </span>
+  </div>
+
 </div>
-        </div>
 
         {/* Web Development */}
         <div
           className="group absolute left-[500px] top-[340px]"
           style={{ animation: "float4 11s ease-in-out infinite" }}
         >
-          <Image
-            src="/icons/web-development.png"
-            alt="Web Development"
-            width={280}
-            height={280}
-            className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(96,165,250,0.8)]"
-          />
-          <div
-  className="
-    absolute
-    left-1/2
-    top-[260px]
-    -translate-x-1/2
-    opacity-0
-    group-hover:opacity-100
-    transition-all
-    duration-300
-    text-cyan-300
-    font-bold
-    text-xl
-    whitespace-nowrap
-  "
->
-  Web Development
+           <Image
+    src="/icons/Web-Development.png"
+    alt="Web Development"
+    width={280}
+    height={280}
+    className="
+      transition-all
+      duration-300
+      group-hover:scale-110
+      drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
+    "
+  />
+
+  <div
+    className="
+      absolute
+      inset-0
+      flex
+      items-center
+      justify-center
+      opacity-0
+      group-hover:opacity-100
+      transition-all
+      duration-300
+      rounded-3xl
+
+      bg-white/10
+      backdrop-blur-md
+
+      border
+      border-cyan-400/30
+
+      shadow-[0_0_35px_rgba(34,211,238,0.45)]
+    "
+  >
+    <span
+      className="
+        text-white
+        font-bold
+        text-2xl
+        tracking-wide
+        drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]
+      "
+    >
+      Web Development
+    </span>
+  </div>
+
 </div>
-        </div>
 
         {/* Cloud Solutions */}
         <div
           className="group absolute left-[130px] top-[550px]"
           style={{ animation: "float5 12s ease-in-out infinite" }}
         >
-          <Image
-            src="/icons/cloud-based-solutions.png"
-            alt="Cloud Solutions"
-            width={280}
-            height={280}
-            className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]"
-          />
-          <div
-  className="
-    absolute
-    left-1/2
-    top-[260px]
-    -translate-x-1/2
-    opacity-0
-    group-hover:opacity-100
-    transition-all
-    duration-300
-    text-cyan-300
-    font-bold
-    text-xl
-    whitespace-nowrap
-  "
->
-  Cloud Solutions
+           <Image
+    src="/icons/Cloud-Solutions.png"
+    alt="Cloud Solutions"
+    width={280}
+    height={280}
+    className="
+      transition-all
+      duration-300
+      group-hover:scale-110
+      drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
+    "
+  />
+
+  <div
+    className="
+      absolute
+      inset-0
+      flex
+      items-center
+      justify-center
+      opacity-0
+      group-hover:opacity-100
+      transition-all
+      duration-300
+      rounded-3xl
+
+      bg-white/10
+      backdrop-blur-md
+
+      border
+      border-cyan-400/30
+
+      shadow-[0_0_35px_rgba(34,211,238,0.45)]
+    "
+  >
+    <span
+      className="
+        text-white
+        font-bold
+        text-2xl
+        tracking-wide
+        drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]
+      "
+    >
+      Cloud Solutions
+    </span>
+  </div>
+
 </div>
-        </div>
 
         {/* Hardware Solutions */}
         <div
           className="group absolute left-[520px] top-[550px]"
           style={{ animation: "float6 10s ease-in-out infinite" }}
         >
-          <Image
-            src="/icons/hardware-solutions.png"
-            alt="Hardware Solutions"
-            width={280}
-            height={280}
-            className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(168,85,247,0.8)]"
-          />
-          <div
-  className="
-    absolute
-    left-1/2
-    top-[260px]
-    -translate-x-1/2
-    opacity-0
-    group-hover:opacity-100
-    transition-all
-    duration-300
-    text-cyan-300
-    font-bold
-    text-xl
-    whitespace-nowrap
-  "
->
-  Hardware Solutions
+           <Image
+    src="/icons/Hardware-Solutions.png"
+    alt="Hardware Solutions"
+    width={280}
+    height={280}
+    className="
+      transition-all
+      duration-300
+      group-hover:scale-110
+      drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
+    "
+  />
+
+  <div
+    className="
+      absolute
+      inset-0
+      flex
+      items-center
+      justify-center
+      opacity-0
+      group-hover:opacity-100
+      transition-all
+      duration-300
+      rounded-3xl
+
+      bg-white/10
+      backdrop-blur-md
+
+      border
+      border-cyan-400/30
+
+      shadow-[0_0_35px_rgba(34,211,238,0.45)]
+    "
+  >
+    <span
+      className="
+        text-white
+        font-bold
+        text-2xl
+        tracking-wide
+        drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]
+      "
+    >
+      Hardware Solutions
+    </span>
+  </div>
+
 </div>
-        </div>
 
  {/* Contact Us */}
 <a
@@ -210,36 +347,54 @@ export default function DesktopHero() {
   "
   style={{ animation: "float7 9s ease-in-out infinite" }}
 >
-  <Image
+   <Image
     src="/icons/contact-box.png"
     alt="Contact Us"
-    width={220}
-    height={220}
+    width={280}
+    height={280}
     className="
       transition-all
       duration-300
       group-hover:scale-110
-      drop-shadow-[0_0_45px_rgba(168,85,247,0.9)]
+      drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
     "
   />
+
   <div
-  className="
-    absolute
-    left-1/2
-    top-[210px]
-    -translate-x-1/2
-    opacity-0
-    group-hover:opacity-100
-    transition-all
-    duration-300
-    text-cyan-300
-    font-bold
-    text-xl
-    whitespace-nowrap
-  "
->
-  Contact Us
-</div>
+    className="
+      absolute
+      inset-0
+      flex
+      items-center
+      justify-center
+      opacity-0
+      group-hover:opacity-100
+      transition-all
+      duration-300
+      rounded-3xl
+
+      bg-white/10
+      backdrop-blur-md
+
+      border
+      border-cyan-400/30
+
+      shadow-[0_0_35px_rgba(34,211,238,0.45)]
+    "
+  >
+    <span
+      className="
+        text-white
+        font-bold
+        text-2xl
+        tracking-wide
+        drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]
+      "
+    >
+      Contact Us
+    </span>
+  </div>
+
 </a>
 
       </div>
