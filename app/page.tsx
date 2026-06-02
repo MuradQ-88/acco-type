@@ -123,7 +123,7 @@ lg:px-20
 
    {/* Left Side Orbs */}
 
-<div className="relative h-[450px] w-full md:h-[650px] lg:h-[850px] lg:w-[850px]">
+<div className="relative hidden lg:block h-[850px] w-[850px]">
 <DesktopHero />
 
 </div>
