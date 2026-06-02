@@ -239,7 +239,7 @@ export default function DesktopHero() {
 >
 
   <Image
-    src="/icons/cloud-based-solutions.png"
+    src="/icons/cloud-solutions.png"
     alt="Cloud Solutions"
     width={280}
     height={280}
