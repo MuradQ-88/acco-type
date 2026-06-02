@@ -73,8 +73,8 @@ md:gap-4
     <Image
       src="/logo-new.png"
       alt="Acco-Type"
-      width={70}
-      height={70}
+      width={95}
+      height={95}
       className="object-contain"
     />
 
@@ -83,14 +83,14 @@ md:gap-4
 text-xl
 font-black
 tracking-[0.15em]
-sm:text-2xl
+sm:text-3xl
 md:text-4xl
 ">
         ACCO-TYPE
       </h2>
 
       <p className="
-text-[10px]
+text-xs
 tracking-[0.25em]
 text-cyan-400
 sm:text-xs
