@@ -26,7 +26,7 @@ return ( <main className="relative min-h-screen overflow-hidden bg-black text-wh
       -translate-x-1/2
       -translate-y-1/2
       rounded-full
-      bg-cyan-500/10
+     bg-blue-600/10
       blur-[180px]
     "
   />
@@ -72,7 +72,7 @@ md:gap-4
 
     <Image
       src="/logo-new.png"
-      alt="Acco-Type"
+      alt="ALLIANCE GROUP"
       width={95}
       height={95}
       className="object-contain"
@@ -86,7 +86,7 @@ tracking-[0.15em]
 sm:text-3xl
 md:text-4xl
 ">
-        ACCO-TYPE
+        ALLIANCE GROUP
       </h2>
 
       <p className="
@@ -96,7 +96,7 @@ text-cyan-400
 sm:text-xs
 md:text-sm
 ">
-        ENTERPRISE TECHNOLOGIES
+        IT SOLUTIONS
       </p>
     </div>
 
@@ -143,21 +143,21 @@ lg:px-20
 
   {/* Desktop Subtitle */}
   <p className="hidden lg:block mb-4 text-sm tracking-[0.5em] text-cyan-400">
-    ACCO-TYPE TECHNOLOGIES
+    ALLIANCE GROUP TECHNOLOGIES
   </p>
 
   {/* Title */}
   <h1 className="mt-12 leading-[0.9] font-black">
 
     <span className="block text-3xl sm:text-4xl md:text-5xl xl:text-6xl">
-      FUTURE
+      SMART
     </span>
 
     <span
       className="
       block
       bg-gradient-to-r
-      from-cyan-400
+     from-blue-500
       via-sky-300
       to-white
       bg-clip-text
@@ -168,7 +168,7 @@ lg:px-20
       xl:text-7xl
       "
     >
-      TECHNOLOGY
+IT SOLUTIONS
     </span>
 
   </h1>
