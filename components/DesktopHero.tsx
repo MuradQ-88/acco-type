@@ -12,12 +12,31 @@ export default function DesktopHero() {
           style={{ animation: "float1 8s ease-in-out infinite" }}
         >
           <Image
-            src="/icons/it-support.png"
-            alt="IT Support"
-            width={280}
-            height={280}
-            className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]"
-          />
+  src="/icons/it-support.png"
+  alt="IT Support"
+  width={280}
+  height={280}
+  className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]"
+/>
+
+<div
+  className="
+    absolute
+    left-1/2
+    top-[260px]
+    -translate-x-1/2
+    opacity-0
+    group-hover:opacity-100
+    transition-all
+    duration-300
+    text-cyan-300
+    font-bold
+    text-xl
+    whitespace-nowrap
+  "
+>
+  IT Support
+</div>
         </div>
 
         {/* Hosting */}
@@ -32,6 +51,24 @@ export default function DesktopHero() {
             height={280}
             className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(168,85,247,0.8)]"
           />
+          <div
+            className="
+              absolute
+              left-1/2
+              top-[260px]
+              -translate-x-1/2
+              opacity-0
+              group-hover:opacity-100
+              transition-all
+              duration-300
+              text-cyan-300
+              font-bold
+              text-xl
+              whitespace-nowrap
+            "
+          >
+            Hosting
+          </div>
         </div>
 
         {/* Networking */}
@@ -46,6 +83,24 @@ export default function DesktopHero() {
             height={280}
             className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]"
           />
+          <div
+  className="
+    absolute
+    left-1/2
+    top-[260px]
+    -translate-x-1/2
+    opacity-0
+    group-hover:opacity-100
+    transition-all
+    duration-300
+    text-cyan-300
+    font-bold
+    text-xl
+    whitespace-nowrap
+  "
+>
+  Networking
+</div>
         </div>
 
         {/* Web Development */}
@@ -60,11 +115,29 @@ export default function DesktopHero() {
             height={280}
             className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(96,165,250,0.8)]"
           />
+          <div
+  className="
+    absolute
+    left-1/2
+    top-[260px]
+    -translate-x-1/2
+    opacity-0
+    group-hover:opacity-100
+    transition-all
+    duration-300
+    text-cyan-300
+    font-bold
+    text-xl
+    whitespace-nowrap
+  "
+>
+  Web Development
+</div>
         </div>
 
         {/* Cloud Solutions */}
         <div
-          className="group absolute left-[130px] top-[600px]"
+          className="group absolute left-[130px] top-[550px]"
           style={{ animation: "float5 12s ease-in-out infinite" }}
         >
           <Image
@@ -74,11 +147,29 @@ export default function DesktopHero() {
             height={280}
             className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]"
           />
+          <div
+  className="
+    absolute
+    left-1/2
+    top-[260px]
+    -translate-x-1/2
+    opacity-0
+    group-hover:opacity-100
+    transition-all
+    duration-300
+    text-cyan-300
+    font-bold
+    text-xl
+    whitespace-nowrap
+  "
+>
+  Cloud Solutions
+</div>
         </div>
 
         {/* Hardware Solutions */}
         <div
-          className="group absolute left-[520px] top-[600px]"
+          className="group absolute left-[520px] top-[550px]"
           style={{ animation: "float6 10s ease-in-out infinite" }}
         >
           <Image
@@ -88,6 +179,24 @@ export default function DesktopHero() {
             height={280}
             className="transition-all duration-300 group-hover:scale-110 drop-shadow-[0_0_35px_rgba(168,85,247,0.8)]"
           />
+          <div
+  className="
+    absolute
+    left-1/2
+    top-[260px]
+    -translate-x-1/2
+    opacity-0
+    group-hover:opacity-100
+    transition-all
+    duration-300
+    text-cyan-300
+    font-bold
+    text-xl
+    whitespace-nowrap
+  "
+>
+  Hardware Solutions
+</div>
         </div>
 
  {/* Contact Us */}
@@ -113,6 +222,24 @@ export default function DesktopHero() {
       drop-shadow-[0_0_45px_rgba(168,85,247,0.9)]
     "
   />
+  <div
+  className="
+    absolute
+    left-1/2
+    top-[210px]
+    -translate-x-1/2
+    opacity-0
+    group-hover:opacity-100
+    transition-all
+    duration-300
+    text-cyan-300
+    font-bold
+    text-xl
+    whitespace-nowrap
+  "
+>
+  Contact Us
+</div>
 </a>
 
       </div>
