@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function MobileHero() {
   return (
     <div className="block lg:hidden">
-      <div className="relative mx-auto h-[260px] w-full max-w-[430px]">
+      <div className="relative mx-auto h-[160px] w-full max-w-[430px]">
 
         {/* الصف الأول */}
 
-        <div className="absolute left-[8%] top-[20px]">
+        <div className="absolute left-[8%] top-[30px]">
           <Image
             src="/icons/it-support.png"
             alt="IT Support"
@@ -16,7 +16,7 @@ export default function MobileHero() {
           />
         </div>
 
-        <div className="absolute left-1/2 top-[20px] -translate-x-1/2">
+        <div className="absolute left-1/2 top-[30px] -translate-x-1/2">
           <Image
             src="/icons/hosting.png"
             alt="Hosting"
@@ -25,7 +25,7 @@ export default function MobileHero() {
           />
         </div>
 
-        <div className="absolute right-[8%] top-[20px]">
+        <div className="absolute right-[8%] top-[30px]">
           <Image
             src="/icons/networking.png"
             alt="Networking"
