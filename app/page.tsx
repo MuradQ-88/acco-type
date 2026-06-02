@@ -147,7 +147,7 @@ lg:px-20
   </p>
 
   {/* Title */}
-  <h1 className="mt-12 leading-[0.9] font-black">
+  <h1 className="mt-16 leading-[0.9] font-black">
 
     <span className="block text-3xl sm:text-4xl md:text-5xl xl:text-6xl">
       SMART
