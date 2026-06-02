@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function MobileHero() {
   return (
     <div className="block lg:hidden">
-      <div className="relative mx-auto h-[160px] w-full max-w-[430px]">
+      <div className="relative mx-auto h-[430px] w-full max-w-[430px]">
 
         {/* الصف الأول */}
 
-        <div className="absolute left-[8%] top-[30px]">
+        <div className="absolute left-[8%] top-[95px]">
           <Image
             src="/icons/it-support.png"
             alt="IT Support"
@@ -16,7 +16,7 @@ export default function MobileHero() {
           />
         </div>
 
-        <div className="absolute left-1/2 top-[30px] -translate-x-1/2">
+        <div className="absolute left-1/2 top-[95px] -translate-x-1/2">
           <Image
             src="/icons/hosting.png"
             alt="Hosting"
@@ -25,7 +25,7 @@ export default function MobileHero() {
           />
         </div>
 
-        <div className="absolute right-[8%] top-[30px]">
+        <div className="absolute right-[8%] top-[95px]">
           <Image
             src="/icons/networking.png"
             alt="Networking"
@@ -36,7 +36,7 @@ export default function MobileHero() {
 
         {/* الصف الثاني */}
 
-        <div className="absolute left-[8%] top-[115px]">
+        <div className="absolute left-[8%] top-[220px]">
           <Image
             src="/icons/web-development.png"
             alt="Web Development"
@@ -45,7 +45,7 @@ export default function MobileHero() {
           />
         </div>
 
-        <div className="absolute left-1/2 top-[115px] -translate-x-1/2">
+        <div className="absolute left-1/2 top-[220px] -translate-x-1/2">
           <Image
             src="/icons/cloud-based-solutions.png"
             alt="Cloud Solutions"
@@ -54,7 +54,7 @@ export default function MobileHero() {
           />
         </div>
 
-        <div className="absolute right-[8%] top-[115px]">
+        <div className="absolute right-[8%] top-[220px]">
           <Image
             src="/icons/hardware-solutions.png"
             alt="Hardware Solutions"
@@ -65,7 +65,7 @@ export default function MobileHero() {
 
         {/* Contact */}
 
-        <div className="absolute left-1/2 top-[215px] -translate-x-1/2">
+        <div className="absolute left-1/2 top-[360px] -translate-x-1/2">
           <Image
             src="/icons/contact-box.png"
             alt="Contact"
