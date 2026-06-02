@@ -179,7 +179,7 @@ lg:px-20
     mt-6
     mx-auto
     max-w-xl
-    text-sm
+    text-base
     leading-7
     text-gray-300
     sm:text-base
