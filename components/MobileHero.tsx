@@ -41,7 +41,7 @@ export default function MobileHero() {
         />
 
         <Image
-          src="/icons/cloud-based-solutions.png"
+          src="/icons/cloud-solutions.png"
           alt="Cloud Solutions"
           width={110}
           height={110}
