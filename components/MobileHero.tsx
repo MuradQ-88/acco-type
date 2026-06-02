@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function MobileHero() {
   return (
     <div className="block lg:hidden">
-      <div className="relative mx-auto h-[430px] w-full max-w-[430px]">
+      <div className="relative mx-auto h-[70px] w-full max-w-[430px]">
 
         {/* الصف الأول */}
 
