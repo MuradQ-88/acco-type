@@ -64,7 +64,7 @@ export default function DesktopHero() {
 
         {/* Cloud Solutions */}
         <div
-          className="group absolute left-[130px] top-[620px]"
+          className="group absolute left-[130px] top-[600px]"
           style={{ animation: "float5 12s ease-in-out infinite" }}
         >
           <Image
@@ -78,7 +78,7 @@ export default function DesktopHero() {
 
         {/* Hardware Solutions */}
         <div
-          className="group absolute left-[520px] top-[620px]"
+          className="group absolute left-[520px] top-[600px]"
           style={{ animation: "float6 10s ease-in-out infinite" }}
         >
           <Image
