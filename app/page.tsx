@@ -134,7 +134,7 @@ lg:px-20
 <div
 className="
 mx-auto
-mt-10
+mt-0 lg:mt-0
 max-w-xl
 text-center
 lg:ml-auto

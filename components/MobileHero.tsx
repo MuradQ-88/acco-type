@@ -2,106 +2,140 @@ import Image from "next/image";
 
 export default function MobileHero() {
   return (
-    <div className="block lg:hidden relative w-full h-[700px]">
+    <div className="block lg:hidden relative w-full">
 
-      {/* IT Support */}
-      <div
-        className="absolute left-[8%] top-[8%]"
-        style={{ animation: "float1 8s ease-in-out infinite" }}
-      >
+      {/* Background Logo */}
+      <div className="absolute inset-0 flex justify-center pointer-events-none">
+
         <Image
-          src="/icons/it-support.png"
-          alt="IT Support"
-          width={150}
-          height={150}
-          className="drop-shadow-[0_0_25px_rgba(34,211,238,0.8)]"
+          src="/logo-new.png"
+          alt="Background Logo"
+          width={950}
+          height={950}
+          className="
+            opacity-15
+            object-contain
+            mt-20
+            scale-125
+          "
         />
+
       </div>
 
-      {/* Hosting */}
-      <div
-        className="absolute right-[8%] top-[8%]"
-        style={{ animation: "float2 10s ease-in-out infinite" }}
-      >
-        <Image
-          src="/icons/hosting.png"
-          alt="Hosting"
-          width={150}
-          height={150}
-          className="drop-shadow-[0_0_25px_rgba(168,85,247,0.8)]"
-        />
+      {/* Services */}
+      <div className="relative z-20 pt-16 px-4">
+
+        {/* Row 1 */}
+        <div className="grid grid-cols-3 gap-4 text-center">
+
+          <ServiceIcon
+            icon="/icons/it-support.png"
+            title="IT SUPPORT"
+          />
+
+          <ServiceIcon
+            icon="/icons/hosting.png"
+            title="HOSTING"
+          />
+
+          <ServiceIcon
+            icon="/icons/networking.png"
+            title="NETWORKING"
+          />
+
+        </div>
+
+        {/* Row 2 */}
+        <div className="grid grid-cols-3 gap-4 mt-10 text-center">
+
+          <ServiceIcon
+            icon="/icons/web-development.png"
+            title="WEB DEVELOPMENT"
+          />
+
+          <ServiceIcon
+            icon="/icons/cloud-based-solutions.png"
+            title="CLOUD SOLUTIONS"
+          />
+
+          <ServiceIcon
+            icon="/icons/hardware-solutions.png"
+            title="HARDWARE"
+          />
+
+        </div>
+
+        {/* Contact */}
+        <div className="flex justify-center mt-12">
+
+          <a href="/contact">
+
+            <div className="flex flex-col items-center">
+
+              <Image
+                src="/icons/contact-box.png"
+                alt="Contact Us"
+                width={70}
+                height={70}
+                className="
+                  drop-shadow-[0_0_30px_rgba(168,85,247,0.8)]
+                "
+              />
+
+              <span
+                className="
+                  mt-2
+                  text-sm
+                  font-bold
+                  text-white
+                "
+              >
+                CONTACT US
+              </span>
+
+            </div>
+
+          </a>
+
+        </div>
+
       </div>
 
-      {/* Networking */}
-      <div
-        className="absolute left-[5%] top-[32%]"
-        style={{ animation: "float3 9s ease-in-out infinite" }}
-      >
-        <Image
-          src="/icons/networking.png"
-          alt="Networking"
-          width={150}
-          height={150}
-          className="drop-shadow-[0_0_25px_rgba(34,211,238,0.8)]"
-        />
-      </div>
+    </div>
+  );
+}
 
-      {/* Web Development */}
-      <div
-        className="absolute right-[5%] top-[32%]"
-        style={{ animation: "float4 11s ease-in-out infinite" }}
-      >
-        <Image
-          src="/icons/web-development.png"
-          alt="Web Development"
-          width={150}
-          height={150}
-          className="drop-shadow-[0_0_25px_rgba(96,165,250,0.8)]"
-        />
-      </div>
+function ServiceIcon({
+  icon,
+  title,
+}: {
+  icon: string;
+  title: string;
+}) {
+  return (
+    <div className="flex flex-col items-center">
 
-      {/* Contact Us - Center */}
-      <a
-        href="/contact"
-        className="absolute left-1/2 top-[50%] -translate-x-1/2"
-        style={{ animation: "float7 9s ease-in-out infinite" }}
-      >
-        <Image
-          src="/icons/contact-box.png"
-          alt="Contact Us"
-          width={140}
-          height={140}
-          className="drop-shadow-[0_0_35px_rgba(168,85,247,0.9)]"
-        />
-      </a>
+      <Image
+        src={icon}
+        alt={title}
+        width={110}
+        height={110}
+        className="
+          drop-shadow-[0_0_25px_rgba(34,211,238,0.5)]
+        "
+      />
 
-      {/* Cloud */}
-      <div
-        className="absolute left-[8%] top-[62%]"
-        style={{ animation: "float5 12s ease-in-out infinite" }}
+      <span
+        className="
+          mt-2
+          text-[11px]
+          font-bold
+          text-white
+          leading-tight
+        "
       >
-        <Image
-          src="/icons/cloud-based-solutions.png"
-          alt="Cloud"
-          width={150}
-          height={150}
-          className="drop-shadow-[0_0_25px_rgba(34,211,238,0.8)]"
-        />
-      </div>
-
-      {/* Hardware */}
-      <div
-        className="absolute right-[8%] top-[62%]"
-        style={{ animation: "float6 10s ease-in-out infinite" }}
-      >
-        <Image
-          src="/icons/hardware-solutions.png"
-          alt="Hardware"
-          width={150}
-          height={150}
-          className="drop-shadow-[0_0_25px_rgba(168,85,247,0.8)]"
-        />
-      </div>
+        {title}
+      </span>
 
     </div>
   );
