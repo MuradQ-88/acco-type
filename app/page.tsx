@@ -139,16 +139,16 @@ lg:px-20
   "
 >
 
-  {/* Mobile Icons أولاً */}
-  <div className="lg:hidden mb-10">
-    <MobileHero />
-  </div>
+  
 
   {/* Desktop Subtitle */}
   <p className="hidden lg:block mb-4 text-sm tracking-[0.5em] text-cyan-400">
     ACCO-TYPE TECHNOLOGIES
   </p>
-
+{/* Mobile Icons */}
+<div className="lg:hidden mt-10 mb-8">
+  <MobileHero />
+</div>
   {/* Title */}
   <h1 className="leading-[0.9] font-black">
 
