@@ -7,11 +7,12 @@ export default function DesktopHero() {
       <div className="relative h-[850px] w-[1300px]">
 
         {/* IT Support */}
-        <div
-          className="group absolute left-[120px] top-[120px]"
-          style={{ animation: "float1 8s ease-in-out infinite" }}
-        >
-           <Image
+<div
+  className="group absolute left-[120px] top-[120px]"
+  style={{ animation: "float1 8s ease-in-out infinite" }}
+>
+
+  <Image
     src="/icons/it-support.png"
     alt="IT Support"
     width={280}
@@ -24,35 +25,44 @@ export default function DesktopHero() {
     "
   />
 
+  {/* Glass Tooltip */}
   <div
     className="
       absolute
-      inset-0
-      flex
-      items-center
-      justify-center
-      opacity-0
-      group-hover:opacity-100
-      transition-all
-      duration-300
-      rounded-3xl
+      left-1/2
+      top-1/2
+      -translate-x-1/2
+      -translate-y-1/2
 
-      bg-white/10
-      backdrop-blur-md
+      px-6
+      py-3
+
+      rounded-xl
+
+      bg-black/40
+      backdrop-blur-lg
 
       border
-      border-cyan-400/30
+      border-cyan-400/40
 
-      shadow-[0_0_35px_rgba(34,211,238,0.45)]
+      shadow-[0_0_25px_rgba(34,211,238,0.55)]
+
+      opacity-0
+      group-hover:opacity-100
+
+      transition-all
+      duration-300
+
+      whitespace-nowrap
+      pointer-events-none
     "
   >
     <span
       className="
         text-white
+        text-lg
         font-bold
-        text-2xl
         tracking-wide
-        drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]
       "
     >
       IT Support
@@ -60,14 +70,14 @@ export default function DesktopHero() {
   </div>
 
 </div>
+       {/* Hosting */}
+<div
+  className="group absolute left-[500px] top-[90px]"
+  style={{ animation: "float2 10s ease-in-out infinite" }}
+>
 
-        {/* Hosting */}
-        <div
-          className="group absolute left-[500px] top-[90px]"
-          style={{ animation: "float2 10s ease-in-out infinite" }}
-        >
-           <Image
-    src="/icons/Hosting.png"
+  <Image
+    src="/icons/hosting.png"
     alt="Hosting"
     width={280}
     height={280}
@@ -75,39 +85,47 @@ export default function DesktopHero() {
       transition-all
       duration-300
       group-hover:scale-110
-      drop-shadow-[0_0_35px_rgba(34,211,238,0.8)]
+      drop-shadow-[0_0_35px_rgba(168,85,247,0.8)]
     "
   />
 
   <div
     className="
       absolute
-      inset-0
-      flex
-      items-center
-      justify-center
-      opacity-0
-      group-hover:opacity-100
-      transition-all
-      duration-300
-      rounded-3xl
+      left-1/2
+      top-1/2
+      -translate-x-1/2
+      -translate-y-1/2
 
-      bg-white/10
-      backdrop-blur-md
+      px-6
+      py-3
+
+      rounded-xl
+
+      bg-black/40
+      backdrop-blur-lg
 
       border
-      border-cyan-400/30
+      border-cyan-400/40
 
-      shadow-[0_0_35px_rgba(34,211,238,0.45)]
+      shadow-[0_0_25px_rgba(168,85,247,0.55)]
+
+      opacity-0
+      group-hover:opacity-100
+
+      transition-all
+      duration-300
+
+      whitespace-nowrap
+      pointer-events-none
     "
   >
     <span
       className="
         text-white
+        text-lg
         font-bold
-        text-2xl
         tracking-wide
-        drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]
       "
     >
       Hosting
@@ -122,7 +140,7 @@ export default function DesktopHero() {
           style={{ animation: "float3 9s ease-in-out infinite" }}
         >
            <Image
-    src="/icons/Networking.png"
+    src="/icons/networking.png"
     alt="Networking"
     width={280}
     height={280}
@@ -177,7 +195,7 @@ export default function DesktopHero() {
           style={{ animation: "float4 11s ease-in-out infinite" }}
         >
            <Image
-    src="/icons/Web-Development.png"
+    src="/icons/web-development.png"
     alt="Web Development"
     width={280}
     height={280}
@@ -232,7 +250,7 @@ export default function DesktopHero() {
           style={{ animation: "float5 12s ease-in-out infinite" }}
         >
            <Image
-    src="/icons/Cloud-Solutions.png"
+    src="/icons/cloud-solutions.png"
     alt="Cloud Solutions"
     width={280}
     height={280}
@@ -287,7 +305,7 @@ export default function DesktopHero() {
           style={{ animation: "float6 10s ease-in-out infinite" }}
         >
            <Image
-    src="/icons/Hardware-Solutions.png"
+    src="/icons/hardware-solutions.png"
     alt="Hardware Solutions"
     width={280}
     height={280}
