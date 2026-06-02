@@ -10,22 +10,22 @@ export default function MobileHero() {
         <Image
           src="/icons/it-support.png"
           alt="IT Support"
-          width={82}
-          height={82}
+          width={110}
+          height={110}
         />
 
         <Image
           src="/icons/hosting.png"
           alt="Hosting"
-          width={82}
-          height={82}
+          width={110}
+          height={110}
         />
 
         <Image
           src="/icons/networking.png"
           alt="Networking"
-          width={82}
-          height={82}
+          width={110}
+          height={110}
         />
 
       </div>
@@ -36,22 +36,22 @@ export default function MobileHero() {
         <Image
           src="/icons/web-development.png"
           alt="Web Development"
-          width={82}
-          height={82}
+          width={110}
+          height={110}
         />
 
         <Image
           src="/icons/cloud-based-solutions.png"
           alt="Cloud Solutions"
-          width={82}
-          height={82}
+          width={110}
+          height={110}
         />
 
         <Image
           src="/icons/hardware-solutions.png"
           alt="Hardware Solutions"
-          width={82}
-          height={82}
+          width={110}
+          height={110}
         />
 
       </div>
@@ -62,8 +62,8 @@ export default function MobileHero() {
         <Image
           src="/icons/contact-box.png"
           alt="Contact"
-          width={50}
-          height={50}
+          width={110}
+          height={110}
         />
 
       </div>
