@@ -125,95 +125,97 @@ lg:px-20
 
 <div className="relative h-[450px] w-full md:h-[650px] lg:h-[850px] lg:w-[850px]">
 <DesktopHero />
-<MobileHero />
 
 </div>
 
 {/* Right Content */}
 
 <div
-className="
-mx-auto
-mt-0 lg:mt-0
-max-w-xl
-text-center
-lg:ml-auto
-lg:mt-0
-lg:text-right
-"
->
-      <p className="mb-4 text-sm tracking-[0.5em] text-cyan-400">
-        ACCO-TYPE TECHNOLOGIES
-      </p>
-
-      <h1 className="leading-[0.9] font-black">
-
-        <span className="block text-3xl sm:text-4xl md:text-5xl xl:text-6xl">
-          FUTURE
-        </span>
-
-        <span
-className="
-block
-bg-gradient-to-r
-from-cyan-400
-via-sky-300
-to-white
-bg-clip-text
-text-4xl
-text-transparent
-sm:text-5xl
-md:text-6xl
-xl:text-7xl
-"
->
-          TECHNOLOGY
-        </span>
-
-      </h1>
-
-      <p
-className="
-mt-6
-mx-auto
-max-w-xl
-text-sm
-leading-7
-text-gray-300
-sm:text-base
-md:text-lg
-md:leading-8
-lg:ml-auto
-"
->
-        Enterprise-grade IT infrastructure, hosting, networking
-        and digital solutions designed to power modern business
-        operations across South Africa.
-      </p>
-
-     <div
-className="
-mt-8
-flex
-flex-col
-gap-4
-sm:flex-row
-sm:justify-center
-lg:justify-end
-items-center
-"
+  className="
+  mx-auto
+  mt-0
+  max-w-xl
+  text-center
+  lg:ml-auto
+  lg:text-right
+  "
 >
 
-{/* Contact Us Desktop */}
+  <p className="mb-4 text-sm tracking-[0.5em] text-cyan-400">
+    ACCO-TYPE TECHNOLOGIES
+  </p>
 
+  <h1 className="leading-[0.9] font-black">
 
-  <button className="rounded-2xl border border-white/30 px-8 py-4 font-bold transition hover:bg-white/10">
-    Explore Solutions
-  </button>
+    <span className="block text-3xl sm:text-4xl md:text-5xl xl:text-6xl">
+      FUTURE
+    </span>
+
+    <span
+      className="
+      block
+      bg-gradient-to-r
+      from-cyan-400
+      via-sky-300
+      to-white
+      bg-clip-text
+      text-4xl
+      text-transparent
+      sm:text-5xl
+      md:text-6xl
+      xl:text-7xl
+      "
+    >
+      TECHNOLOGY
+    </span>
+
+  </h1>
+
+  <p
+    className="
+    mt-6
+    mx-auto
+    max-w-xl
+    text-sm
+    leading-7
+    text-gray-300
+    sm:text-base
+    md:text-lg
+    md:leading-8
+    lg:ml-auto
+    "
+  >
+    Enterprise-grade IT infrastructure, hosting, networking
+    and digital solutions designed to power modern business
+    operations across South Africa.
+  </p>
+
+  {/* Mobile Icons تحت الوصف */}
+  <div className="lg:hidden">
+    <MobileHero />
+  </div>
+
+  <div
+    className="
+    mt-8
+    flex
+    flex-col
+    gap-4
+    items-center
+    sm:flex-row
+    sm:justify-center
+    lg:justify-end
+    "
+  >
+
+    <button className="rounded-2xl border border-white/30 px-8 py-4 font-bold transition hover:bg-white/10">
+      Explore Solutions
+    </button>
+
+  </div>
 
 </div>
 
-    </div>
 
   </div>
 
