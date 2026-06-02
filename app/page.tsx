@@ -111,9 +111,8 @@ flex
 min-h-screen
 max-w-[1800px]
 flex-col
-justify-center
 px-6
-pt-32
+pt-8
 lg:flex-row
 lg:items-center
 lg:justify-between
@@ -133,7 +132,6 @@ lg:px-20
 <div
   className="
   mx-auto
-  mt-0
   max-w-xl
   text-center
   lg:ml-auto
@@ -141,10 +139,17 @@ lg:px-20
   "
 >
 
-  <p className="mb-4 text-sm tracking-[0.5em] text-cyan-400">
+  {/* Mobile Icons أولاً */}
+  <div className="lg:hidden mb-10">
+    <MobileHero />
+  </div>
+
+  {/* Desktop Subtitle */}
+  <p className="hidden lg:block mb-4 text-sm tracking-[0.5em] text-cyan-400">
     ACCO-TYPE TECHNOLOGIES
   </p>
 
+  {/* Title */}
   <h1 className="leading-[0.9] font-black">
 
     <span className="block text-3xl sm:text-4xl md:text-5xl xl:text-6xl">
@@ -171,6 +176,7 @@ lg:px-20
 
   </h1>
 
+  {/* Description */}
   <p
     className="
     mt-6
@@ -190,31 +196,22 @@ lg:px-20
     operations across South Africa.
   </p>
 
-  {/* Mobile Icons تحت الوصف */}
-  <div className="lg:hidden">
-    <MobileHero />
-  </div>
-
+  {/* Button */}
   <div
     className="
     mt-8
     flex
-    flex-col
-    gap-4
-    items-center
-    sm:flex-row
-    sm:justify-center
+    justify-center
     lg:justify-end
     "
   >
-
     <button className="rounded-2xl border border-white/30 px-8 py-4 font-bold transition hover:bg-white/10">
       Explore Solutions
     </button>
-
   </div>
 
 </div>
+
 
 
   </div>
