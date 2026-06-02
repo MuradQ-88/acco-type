@@ -11,8 +11,8 @@ export default function MobileHero() {
           <Image
             src="/icons/it-support.png"
             alt="IT Support"
-            width={90}
-            height={90}
+            width={110}
+            height={110}
           />
         </div>
 
@@ -20,8 +20,8 @@ export default function MobileHero() {
           <Image
             src="/icons/hosting.png"
             alt="Hosting"
-            width={90}
-            height={90}
+            width={110}
+            height={110}
           />
         </div>
 
@@ -29,8 +29,8 @@ export default function MobileHero() {
           <Image
             src="/icons/networking.png"
             alt="Networking"
-            width={90}
-            height={90}
+            width={110}
+            height={110}
           />
         </div>
 
@@ -40,8 +40,8 @@ export default function MobileHero() {
           <Image
             src="/icons/web-development.png"
             alt="Web Development"
-            width={90}
-            height={90}
+            width={110}
+            height={110}
           />
         </div>
 
@@ -49,8 +49,8 @@ export default function MobileHero() {
           <Image
             src="/icons/cloud-based-solutions.png"
             alt="Cloud Solutions"
-            width={90}
-            height={90}
+            width={110}
+            height={110}
           />
         </div>
 
@@ -58,8 +58,8 @@ export default function MobileHero() {
           <Image
             src="/icons/hardware-solutions.png"
             alt="Hardware Solutions"
-            width={90}
-            height={90}
+            width={110}
+            height={110}
           />
         </div>
 
@@ -69,8 +69,8 @@ export default function MobileHero() {
           <Image
             src="/icons/contact-box.png"
             alt="Contact"
-            width={58}
-            height={58}
+            width={80}
+            height={80}
           />
         </div>
 
