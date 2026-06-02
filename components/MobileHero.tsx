@@ -3,80 +3,78 @@ import Image from "next/image";
 export default function MobileHero() {
   return (
     <div className="block lg:hidden">
+      <div className="relative mx-auto h-[260px] w-full max-w-[430px]">
 
-      <div className="relative mx-auto h-[520px] w-full max-w-[430px]">
+        {/* الصف الأول */}
 
-        {/* Row 1 */}
-
-        <div className="absolute left-[10%] top-[170px]">
+        <div className="absolute left-[8%] top-[20px]">
           <Image
             src="/icons/it-support.png"
             alt="IT Support"
-            width={78}
-            height={78}
+            width={90}
+            height={90}
           />
         </div>
 
-        <div className="absolute left-1/2 top-[170px] -translate-x-1/2">
+        <div className="absolute left-1/2 top-[20px] -translate-x-1/2">
           <Image
             src="/icons/hosting.png"
             alt="Hosting"
-            width={78}
-            height={78}
+            width={90}
+            height={90}
           />
         </div>
 
-        <div className="absolute right-[10%] top-[170px]">
+        <div className="absolute right-[8%] top-[20px]">
           <Image
             src="/icons/networking.png"
             alt="Networking"
-            width={78}
-            height={78}
+            width={90}
+            height={90}
           />
         </div>
 
-        {/* Row 2 */}
+        {/* الصف الثاني */}
 
-        <div className="absolute left-[10%] top-[290px]">
+        <div className="absolute left-[8%] top-[115px]">
           <Image
             src="/icons/web-development.png"
             alt="Web Development"
-            width={78}
-            height={78}
+            width={90}
+            height={90}
           />
         </div>
 
-        <div className="absolute left-1/2 top-[290px] -translate-x-1/2">
+        <div className="absolute left-1/2 top-[115px] -translate-x-1/2">
           <Image
             src="/icons/cloud-based-solutions.png"
             alt="Cloud Solutions"
-            width={78}
-            height={78}
+            width={90}
+            height={90}
           />
         </div>
 
-        <div className="absolute right-[10%] top-[290px]">
+        <div className="absolute right-[8%] top-[115px]">
           <Image
             src="/icons/hardware-solutions.png"
             alt="Hardware Solutions"
-            width={78}
-            height={78}
+            width={90}
+            height={90}
           />
         </div>
 
         {/* Contact */}
 
-        <div className="absolute left-1/2 top-[415px] -translate-x-1/2">
+        <div className="absolute left-1/2 top-[215px] -translate-x-1/2">
           <Image
             src="/icons/contact-box.png"
             alt="Contact"
-            width={52}
-            height={52}
+            width={58}
+            height={58}
           />
         </div>
 
       </div>
-
     </div>
   );
 }
